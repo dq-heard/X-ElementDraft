@@ -56,19 +56,24 @@ export default {
   text-align: center;
 }
 
+.identity .p1,
+.identity .p2 {
+  display: none;
+}
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
 
 @media (min-width: 575px) {
-  .p2 {
+  .identity .p2 {
     display: block;
     padding-top: 1.5rem;
   }
 }
 
 @media (min-width: 768px) {
-  .p1 {
+  .identity .p1 {
     display: block;
     padding-top: 1.5rem;
   }
