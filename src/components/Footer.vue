@@ -81,9 +81,7 @@
     </div>
     <div class="footer-bottom">
       <div class="container">
-        <p class="copyright">
-          © 2023 - {{ currentYear }} X-Element LLC - All Rights Reserved.
-        </p>
+        <p class="copyright">© 2023 X-Element LLC - All Rights Reserved.</p>
       </div>
     </div>
   </footer>
@@ -97,7 +95,6 @@ export default {
   components: { RouterLink },
   data() {
     return {
-      currentYear: new Date().getFullYear(),
       logo,
       socialLinks: [
         {
