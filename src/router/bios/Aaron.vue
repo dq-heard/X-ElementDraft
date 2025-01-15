@@ -112,7 +112,7 @@ export default {
   .bio {
     padding-top: 13rem;
     text-align: center;
-    min-height: 60vh;
+    min-height: 90vh;
   }
 
   .bio-wrapper {

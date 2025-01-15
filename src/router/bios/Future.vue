@@ -51,7 +51,10 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.bio-desc strong:hover {
+  color: var(--text-champagne-pink);
+}
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
